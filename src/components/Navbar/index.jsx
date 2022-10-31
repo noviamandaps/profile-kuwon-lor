@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 
 // 👇️ import Routes instead of Switch 👇️
-import {BrowserRouter as Link, useLocation} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link, Routes, useLocation} from 'react-router-dom';
 import classNames from "classnames";
 import LogoPurwosari from '../../assets/images/logogk.png'
 
