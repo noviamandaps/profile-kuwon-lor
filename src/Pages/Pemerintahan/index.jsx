@@ -3,7 +3,6 @@ import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
 import Hero from '../../components/PemerintahanPage/Hero'
 import ListPejabat from '../../components/PemerintahanPage/ListPejabat'
-import { Carousel } from 'flowbite-react'
 
 function Pemerintahan() {
   return (

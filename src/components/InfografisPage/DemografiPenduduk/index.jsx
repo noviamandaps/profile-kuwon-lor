@@ -22,14 +22,14 @@ function DemografiPenduduk() {
                             <img className='w-28' src={ManImage} alt=""/>
                             <div className='text-center'>
                                 <h5 className='text-xl font-medium text-gray-600 mb-1'>Laki-Laki</h5>
-                                <p className='text-3xl font-bold text-emerald-600'>{dataPenduduk.man} Orang</p>
+                                <p className='text-2xl sm:text-3xl font-bold text-emerald-600'>{dataPenduduk.man} Orang</p>
                             </div>
                         </div>
                         <div className='flex flex-col justify-center items-center flex-grow border border-gray-200 py-8 rounded-lg gap-5'>
                             <img className='w-28' src={FemaleImage} alt=""/>
                             <div className='text-center'>
                                 <h5 className='text-xl font-medium text-gray-600 mb-1'>Perempuan</h5>
-                                <p className='text-3xl font-bold text-emerald-600'>{dataPenduduk.female} Orang</p>
+                                <p className='text-2xl sm:text-3xl font-bold text-emerald-600'>{dataPenduduk.female} Orang</p>
                             </div>
                         </div>
                         <div className='flex flex-col justify-center items-center flex-grow border border-gray-200 py-8 rounded-lg gap-5'>
@@ -39,7 +39,7 @@ function DemografiPenduduk() {
                             </div>
                             <div className='text-center'>
                                 <h5 className='text-xl font-medium text-gray-600 mb-1'>Total</h5>
-                                <p className='text-3xl font-bold text-emerald-600'>{dataPenduduk.total} Orang</p>
+                                <p className='text-2xl sm:text-3xl font-bold text-emerald-600'>{dataPenduduk.total} Orang</p>
                             </div>
                         </div>
                     </div>

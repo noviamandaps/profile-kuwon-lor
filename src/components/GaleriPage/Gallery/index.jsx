@@ -1,27 +1,33 @@
 import React from 'react'
 import ModalImage from "react-modal-image";
-import { Link } from "react-router-dom"
 
 const galeriImages = [
     "https://source.unsplash.com/random/350x350",
     "https://source.unsplash.com/random/350x350",
     "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350"
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
+    "https://source.unsplash.com/random/350x350",
 ]
 
 function Gallery() {
     return (
-        <section className='bg-emerald-50/50'>
-            <div className='max-w-screen-xl mx-auto px-6 lg:px-8 pt-32 pb-24 flex flex-col items-center'>
-                <div className='text-center'>
-                    <h4 className='text-3xl sm:text-4xl font-bold text-gray-800 mb-4'>Kumpulan Foto <span className='text-emerald-600'>Dukuh Gumbeng</span></h4>
-                    <p className='text-gray-600 mb-14'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae tenetur reiciendis placeat recusandae</p>
-                </div>
-                <div className='flex flex-col sm:flex-row gap-4'>
+        <section className='py-32'>
+            <div className='max-w-screen-xl mx-auto px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-5'>
                     {
                         galeriImages.map((imageLink, index) => (
-                            <div key={index} className="flex-grow antialiased">
+                            <div className="flex-grow antialiased">
                                 <ModalImage
+                                    key={index}
                                     small={imageLink}
                                     large={imageLink}
                                     alt="Hello World!"
@@ -30,8 +36,6 @@ function Gallery() {
                             </div>
                         ))
                     }
-                </div>
-                <Link className='btn bg-emerald-600 hover:bg-emerald-700 text-white mt-14' to={"/sejarah"}>Tampilkan Lainnya</Link>
             </div>
         </section>
     )

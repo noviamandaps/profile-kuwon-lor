@@ -7,6 +7,7 @@ import Footer from '../../components/Footer'
 import FeaturedThings from '../../components/HomePage/FeaturedThings'
 
 function Home() {
+  // console.log(process.env.REACT_APP_PUBLIC_URL)
   return (
     <>
         <Navbar/>

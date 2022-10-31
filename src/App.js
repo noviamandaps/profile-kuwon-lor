@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Fasilitas from './Pages/Fasilitas';
+import Galeri from './Pages/Galeri';
 import Home from './Pages/Home';
 import Infografis from './Pages/Infografis';
 import Pemerintahan from './Pages/Pemerintahan';
@@ -14,7 +15,7 @@ function App() {
         <Route path="/infografis" element={<Infografis/>}/>
         <Route path="/umkm" element={<UMKM/>}/>
         <Route path="/fasilitas" element={<Fasilitas/>}/>
-        <Route path="/galeri" element={{}}/>
+        <Route path="/galeri" element={<Galeri/>}/>
       </Routes>
     </BrowserRouter>
   );
