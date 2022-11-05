@@ -35,7 +35,7 @@ function FasilitasList() {
             <div className='max-w-screen-xl mx-auto px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5'>
                 {
                     listFasilitas.map((fasilitas, index) => (
-                        <Card className='shadow-transparent' horizontal={true} imgSrc={fasilitas.img}>
+                        <Card key={index} className='shadow-transparent' horizontal={true} imgSrc={fasilitas.img}>
                             <h5 className="text-2xl font-bold tracking-tight text-gray-800 dark:text-white">
                                 {fasilitas.nama}
                             </h5>

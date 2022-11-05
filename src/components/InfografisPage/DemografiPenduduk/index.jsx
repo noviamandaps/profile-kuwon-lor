@@ -1,11 +1,13 @@
 import React from 'react'
 import ManImage from '../../../assets/images/man.svg'
 import FemaleImage from '../../../assets/images/woman.svg'
+import KartuKeluarga from '../../../assets/images/kk.png'
 
 const dataPenduduk = {
     man: 310,
     female: 334,
-    total: 644
+    total: 644,
+    jumlahKK: 188
 }
 
 function DemografiPenduduk() {
@@ -18,15 +20,22 @@ function DemografiPenduduk() {
                         <p className='text-gray-600 mb-14'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae tenetur reiciendis placeat recusandae</p>
                     </div>
                     <div className='flex flex-col sm:flex-row gap-3'>
+                        <div className='flex flex-col justify-center items-center flex-grow border border-gray-200 py-8 rounded-lg gap-5'>
+                            <img className='w-32' src={KartuKeluarga} alt="" />
+                            <div className='text-center'>
+                                <h5 className='text-xl font-medium text-gray-600 mb-1'>Jumlah KK</h5>
+                                <p className='text-2xl sm:text-3xl font-bold text-emerald-600'>{dataPenduduk.jumlahKK} KK</p>
+                            </div>
+                        </div>
                         <div className='flex flex-col justify-center items-center flex-grow border border-gray-200 py-8 rounded-lg gap-5 '>
-                            <img className='w-28' src={ManImage} alt=""/>
+                            <img className='w-28' src={ManImage} alt="" />
                             <div className='text-center'>
                                 <h5 className='text-xl font-medium text-gray-600 mb-1'>Laki-Laki</h5>
                                 <p className='text-2xl sm:text-3xl font-bold text-emerald-600'>{dataPenduduk.man} Orang</p>
                             </div>
                         </div>
                         <div className='flex flex-col justify-center items-center flex-grow border border-gray-200 py-8 rounded-lg gap-5'>
-                            <img className='w-28' src={FemaleImage} alt=""/>
+                            <img className='w-28' src={FemaleImage} alt="" />
                             <div className='text-center'>
                                 <h5 className='text-xl font-medium text-gray-600 mb-1'>Perempuan</h5>
                                 <p className='text-2xl sm:text-3xl font-bold text-emerald-600'>{dataPenduduk.female} Orang</p>
@@ -34,8 +43,8 @@ function DemografiPenduduk() {
                         </div>
                         <div className='flex flex-col justify-center items-center flex-grow border border-gray-200 py-8 rounded-lg gap-5'>
                             <div className='flex gap-2 h-28'>
-                                <img className='w-24' src={ManImage} alt=""/>
-                                <img className='w-24' src={FemaleImage} alt=""/>
+                                <img className='w-24' src={ManImage} alt="" />
+                                <img className='w-24' src={FemaleImage} alt="" />
                             </div>
                             <div className='text-center'>
                                 <h5 className='text-xl font-medium text-gray-600 mb-1'>Total</h5>
