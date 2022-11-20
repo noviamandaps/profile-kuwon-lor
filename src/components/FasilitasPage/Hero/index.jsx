@@ -21,7 +21,7 @@ function Hero() {
                     </h1>
 
                     <p className="mt-6 max-w-xl sm:text-xl sm:leading-relaxed text-white/80">
-                        Kamu bisa melihat informasi mengenai aparat-aparat yang menjabat di Dukuh Gumbeng.
+                        Kamu bisa melihat informasi mengenai berbagai fasilitas umum yang ada di Dusun Gumbeng.
                     </p>
                 </div>
             </div>

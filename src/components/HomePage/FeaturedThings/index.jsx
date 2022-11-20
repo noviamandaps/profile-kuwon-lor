@@ -4,17 +4,17 @@ const featuredThings = [
     {
         icon: 'https://img2.pngdownload.id/20180511/xje/kisspng-culture-of-indonesia-provinces-of-indonesia-wayang-5af5a465d91850.1630966415260478458892.jpg',
         title: 'Desa Budaya',
-        desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+        desc: 'Menjadi bagian dari daerah Purwosari yang menjadi Daerah Budaya sehingga senantiasa menjaga kelestarian budaya daerah'
     },
     {
         icon: 'https://img2.pngdownload.id/20180511/xje/kisspng-culture-of-indonesia-provinces-of-indonesia-wayang-5af5a465d91850.1630966415260478458892.jpg',
-        title: 'Desa Budaya',
-        desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+        title: 'Bersih dan Asri',
+        desc: 'Masyarakat yang selalu menjaga kebersihan daerah, dengan selalu menbuang sampah pada tempatnya dan mengadakan kerja bakti guna membersihkan lingkungan.'
     },
     {
         icon: 'https://img2.pngdownload.id/20180511/xje/kisspng-culture-of-indonesia-provinces-of-indonesia-wayang-5af5a465d91850.1630966415260478458892.jpg',
-        title: 'Desa Budaya',
-        desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration'
+        title: 'Ramah dan Sopan',
+        desc: 'Warga selalu menyambut pandatang dengan baik, selalu mengutamakan kesopanan dalam kehidupan bersosial.'
     },
 ]
 

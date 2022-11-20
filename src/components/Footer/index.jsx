@@ -47,9 +47,9 @@ function Footer() {
                                 <li className="hover:text-white/70">
                                     <Link to={"/"}>Infografis</Link>
                                 </li>
-                                <li className="hover:text-white/70">
+                                {/* <li className="hover:text-white/70">
                                     <Link to={"/"}>UMKM</Link>
-                                </li>
+                                </li> */}
                                 <li className="hover:text-white/70">
                                     <Link to={"/"}>Fasilitas</Link>
                                 </li>

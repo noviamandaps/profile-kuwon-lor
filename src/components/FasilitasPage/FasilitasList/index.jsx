@@ -15,7 +15,7 @@ const listFasilitas = [
     {
         img: process.env.REACT_APP_PUBLIC_URL + '/images/fasilitas/SDN-Klampok.png',
         nama: 'Sekolah Dasar Negeri Klampok',
-        desc: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        desc: `Meskipun namanya SDN Klampok tapi sebenarnya SD ini berada di Dusun Gumbeng, para siswa rata-rata berasal dari dusun Klampok dan Gumbeng, karena SD ini berada di antara 2 dusun tersebut.`
     },
     {
         img: 'https://flowbite.com/docs/images/blog/image-4.jpg',

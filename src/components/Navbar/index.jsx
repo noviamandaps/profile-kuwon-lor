@@ -81,9 +81,9 @@ export default function Navbar() {
                             <li className={classNames("hover:text-emerald-600", {"text-emerald-600": location.pathname === "/infografis"})}>
                                 <Link to={"/infografis"}>Infografis</Link>
                             </li>
-                            <li className={classNames("hover:text-emerald-600", {"text-emerald-600": location.pathname === "/umkm"})}>
+                            {/* <li className={classNames("hover:text-emerald-600", {"text-emerald-600": location.pathname === "/umkm"})}>
                                 <Link to={"/umkm"}>UMKM</Link>
-                            </li>
+                            </li> */}
                             <li className={classNames("hover:text-emerald-600", {"text-emerald-600": location.pathname === "/fasilitas"})}>
                                 <Link to={"/fasilitas"}>Fasilitas</Link>
                             </li>

@@ -7,7 +7,7 @@ function DemografiDaerah() {
                 <div className='max-w-screen-xl mx-auto px-6 lg:px-8 pt-32 pb-32 flex flex-col'>
                     <div className=''>
                         <h4 className='text-3xl sm:text-4xl font-bold text-gray-800 mb-4'>Demografi Daerah</h4>
-                        <p className='text-gray-600 mb-14'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae tenetur reiciendis placeat recusandae</p>
+                        <p className='text-gray-600 mb-14'>Informasi daerah dan perbatasan Dusun Gumbeng</p>
                     </div>
                     
                     <div className='flex flex-col sm:flex-row gap-6'>
