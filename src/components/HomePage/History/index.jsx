@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 function History() {
   return (
     <div className='max-w-screen-xl mx-auto px-6 lg:px-8 py-32 flex flex-col md:flex-row items-center gap-10'>
-        <div className='md:w-1/3 rounded-lg overflow-hidden border border-gray-200'>
-            <img className='object-cover h-72' src="https://cdn.idntimes.com/content-images/community/2021/04/whatsapp-image-2021-04-14-at-173219-3b1f70c00767ecd8943965a1fc32ed2c-1c9811a730308636c64411495b7c2228_600x400.jpeg" alt="Gambar Dukuh Gumbeng" />
+        <div className='w-full md:w-1/3 rounded-lg overflow-hidden border border-gray-200'>
+            <img className='object-cover h-72 w-full' src={process.env.REACT_APP_PUBLIC_URL + '/images/thumbnail sejarah.jpg'} alt="Gambar Dukuh Gumbeng" />
         </div>
         <div className='md:w-2/3'>
             <h3 className='text-3xl sm:text-4xl font-bold text-gray-800 mb-4'>Sejarah Singkat</h3>

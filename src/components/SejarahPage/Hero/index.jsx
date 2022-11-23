@@ -14,14 +14,14 @@ function Hero() {
             >
                 <div className="max-w-4xl text-center sm:text-left text-white">
                     <h1 className="text-4xl font-extrabold sm:text-4xl lg:text-5xl">
-                        Informasi Fasilitas Umum di
+                        Sejarah Bagaimana Terbentuknya
                         <strong className="block font-extrabold text-emerald-600">
                         Dukuh Gumbeng
                         </strong>
                     </h1>
 
                     <p className="mt-6 max-w-xl sm:text-xl sm:leading-relaxed text-white/80">
-                        Kamu bisa melihat informasi mengenai berbagai fasilitas umum yang ada di Dusun Gumbeng.
+                        Berisi cerita bagaimana awal mula terciptanya padukuhan Gumbeng.
                     </p>
                 </div>
             </div>

@@ -2,19 +2,19 @@ import React from 'react'
 
 const featuredThings = [
     {
-        icon: 'https://img2.pngdownload.id/20180511/xje/kisspng-culture-of-indonesia-provinces-of-indonesia-wayang-5af5a465d91850.1630966415260478458892.jpg',
+        icon: process.env.REACT_APP_PUBLIC_URL + '/images/featured/bersih rapi.png',
+        title: 'Bersih dan Asri',
+        desc: 'Masyarakat selalu menjaga kebersihan daerah, dengan selalu membuang sampah pada tempatnya dan kerja bakti membersihkan lingkungan'
+    },
+    {
+        icon: process.env.REACT_APP_PUBLIC_URL + '/images/featured/budaya.png',
         title: 'Desa Budaya',
         desc: 'Menjadi bagian dari daerah Purwosari yang menjadi Daerah Budaya sehingga senantiasa menjaga kelestarian budaya daerah'
     },
     {
-        icon: 'https://img2.pngdownload.id/20180511/xje/kisspng-culture-of-indonesia-provinces-of-indonesia-wayang-5af5a465d91850.1630966415260478458892.jpg',
-        title: 'Bersih dan Asri',
-        desc: 'Masyarakat yang selalu menjaga kebersihan daerah, dengan selalu menbuang sampah pada tempatnya dan mengadakan kerja bakti guna membersihkan lingkungan.'
-    },
-    {
-        icon: 'https://img2.pngdownload.id/20180511/xje/kisspng-culture-of-indonesia-provinces-of-indonesia-wayang-5af5a465d91850.1630966415260478458892.jpg',
+        icon: process.env.REACT_APP_PUBLIC_URL + '/images/featured/ramah.png',
         title: 'Ramah dan Sopan',
-        desc: 'Warga selalu menyambut pandatang dengan baik, selalu mengutamakan kesopanan dalam kehidupan bersosial.'
+        desc: 'Warga selalu menyambut pandatang dengan baik, selalu mengutamakan kesopanan dalam kehidupan bersosial'
     },
 ]
 
@@ -30,9 +30,9 @@ function FeaturedThings() {
                     <div className='flex flex-col sm:flex-row gap-4'>
                         {
                             featuredThings.map((thing, index) => (
-                                <div key={index} className='flex flex-col mx-auto items-center p-5'>
+                                <div key={index} className='flex flex-col mx-auto items-center p-5 max-w-sm'>
                                     <div className='mb-9'>
-                                        <img className='mx-auto' src={thing.icon} alt="icon" />
+                                        <img className='mx-auto' width='320' src={thing.icon} alt="icon" />
                                     </div>
                                     <div className='flex flex-col gap-3'>
                                         <h5 className='text-center text-2xl font-bold'>{thing.title}</h5>

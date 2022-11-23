@@ -11,7 +11,7 @@ function DemografiDaerah() {
                     </div>
                     
                     <div className='flex flex-col sm:flex-row gap-6'>
-                    <iframe className='rounded-lg sm:w-1/3 h-80 sm:h-auto' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36089.084877200345!2d110.40811841858437!3d-8.05461941428922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7ba943a03fecad%3A0x2e2021e92c436631!2sGumbeng%2C%20Giripurwo%2C%20Purwosari%2C%20Gunung%20Kidul%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e1!3m2!1sen!2sid!4v1667212029989!5m2!1sen!2sid" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe title='Peta Dukuh Gumbeng' className='rounded-lg sm:w-1/3 h-80 sm:h-auto' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36089.084877200345!2d110.40811841858437!3d-8.05461941428922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7ba943a03fecad%3A0x2e2021e92c436631!2sGumbeng%2C%20Giripurwo%2C%20Purwosari%2C%20Gunung%20Kidul%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e1!3m2!1sen!2sid!4v1667212029989!5m2!1sen!2sid" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
                         <div className='sm:w-2/3 flex flex-col gap-4'>
                             <div className='flex border border-gray-200 rounded-lg overflow-hidden'>

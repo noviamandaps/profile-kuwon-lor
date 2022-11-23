@@ -2,21 +2,21 @@ import React from 'react'
 import ModalImage from "react-modal-image";
 
 const galeriImages = [
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/1.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/2.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/3.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/4.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/5.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/6.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/7.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/8.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/9.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/10.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/11.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/12.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/13.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/14.webp',
+
 ]
 
 function Gallery() {
@@ -29,8 +29,8 @@ function Gallery() {
                                 <ModalImage
                                     small={imageLink}
                                     large={imageLink}
-                                    alt="Hello World!"
-                                    className="w-full object-cover object-center rounded-lg hover:grayscale hover:contrast-100 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300"
+                                    alt="Galeri Gumbeng"
+                                    className="w-full h-96 object-cover object-center rounded-lg hover:grayscale hover:contrast-100 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300"
                                 />
                             </div>
                         ))

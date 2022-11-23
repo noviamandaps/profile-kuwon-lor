@@ -3,10 +3,10 @@ import ModalImage from "react-modal-image";
 import { Link } from "react-router-dom"
 
 const galeriImages = [
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350",
-    "https://source.unsplash.com/random/350x350"
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/1.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/2.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/3.jpg',
+    process.env.REACT_APP_PUBLIC_URL + '/images/galeri/4.jpg',
 ]
 
 function Gallery() {
@@ -25,13 +25,13 @@ function Gallery() {
                                     small={imageLink}
                                     large={imageLink}
                                     alt="Hello World!"
-                                    className="w-full object-cover object-center rounded-lg hover:grayscale hover:contrast-100 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300"
+                                    className="w-full h-96 object-cover object-center rounded-lg hover:grayscale hover:contrast-100 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300"
                                 />
                             </div>
                         ))
                     }
                 </div>
-                <Link className='btn bg-emerald-600 hover:bg-emerald-700 text-white mt-14' to={"/sejarah"}>Tampilkan Lainnya</Link>
+                <Link className='btn bg-emerald-600 hover:bg-emerald-700 text-white mt-14' to={"/galeri"}>Tampilkan Lainnya</Link>
             </div>
         </section>
     )

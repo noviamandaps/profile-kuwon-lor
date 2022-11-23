@@ -3,29 +3,29 @@ import React from 'react'
 
 const listFasilitas = [
     {
-        img: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+        img: process.env.REACT_APP_PUBLIC_URL + '/images/fasilitas/Balai Dukuh.webp',
         nama: 'Balai Padukuhan Gumbeng',
-        desc: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        desc: `Balai padukuhan adalah tempat yang sering dipakai untuk pertemuan warga dan berbagai acara lainnya, bangunan balai ini terletak berdampingan dengan Masjid Baitussalam.`
     },
     {
-        img: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+        img: process.env.REACT_APP_PUBLIC_URL + '/images/fasilitas/Masjid Baitussalam.webp',
         nama: 'Masjid Baitussalam',
-        desc: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        desc: `Merupakan satu-satunya masjid di dukuh ini, memiliki serambi yang lumayan luas yang kadang juga dipakai sebagai alternatif untuk pertemuan warga. Ada beberapa kegiatan yang sering diakan seperti TPA dan juga latihan bermain Rabana.`
     },
     {
-        img: process.env.REACT_APP_PUBLIC_URL + '/images/fasilitas/SDN-Klampok.png',
+        img: process.env.REACT_APP_PUBLIC_URL + '/images/fasilitas/SDN Klampok.webp',
         nama: 'Sekolah Dasar Negeri Klampok',
-        desc: `Meskipun namanya SDN Klampok tapi sebenarnya SD ini berada di Dusun Gumbeng, para siswa rata-rata berasal dari dusun Klampok dan Gumbeng, karena SD ini berada di antara 2 dusun tersebut.`
+        desc: `Meskipun namanya SDN Klampok tapi sebenarnya SD ini berada di Dukuh Gumbeng, para siswa rata-rata berasal dari dukuh Klampok dan Gumbeng, karena SD ini berada di antara 2 dukuh tersebut.`
     },
     {
-        img: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+        img: process.env.REACT_APP_PUBLIC_URL + '/images/fasilitas/Lapangan Voli.webp',
         nama: 'Lapangan Voli Gumbeng',
-        desc: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        desc: `Lapangan ini terletak di tempat yang strategis karena bberada di samping jalan utama, sering kali saat musim kemarau menjadi tempat diadakannya pertandingan Bola Voli antar Kelurahan.`
     },
     {
-        img: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+        img: process.env.REACT_APP_PUBLIC_URL + '/images/fasilitas/PAUD.webp',
         nama: 'PAUD (Pendidikan Anak Usia Dini) Gumbeng',
-        desc: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.`
+        desc: `Menjadi tempat belajar pertama untuk anak-anak dukuh Gumbeng ini, terkadang juga menjadi tempat untuk mereka bermain karena tempat ini terbuka untuk umum.`
     },
 ]
 

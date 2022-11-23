@@ -2,54 +2,54 @@ import React from 'react'
 
 const dataPejabat = [
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
+        nama: "Bapak Suparmin",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/Dukuh Suparmin.webp',
         jabatan: "Kepala Dukuh"
     },
     {
-        nama: "Pak Sarwono",
-        foto: "https://source.unsplash.com/random/350x350",
+        nama: "Bapak Sarjiman",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RW Sarjiman.webp',
         jabatan: "Ketua RW"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 1"
+        nama: "Bapak Harjo Sudarno",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 01 Harjo Sudarno.webp',
+        jabatan: "Ketua RT.01"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 2"
+        nama: "Bapak Sutarjo",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 02 Sutarjo.webp',
+        jabatan: "Ketua RT.02"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 3"
+        nama: "Bapak Kardiman",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 03 Kardiman.webp',
+        jabatan: "Ketua RT.03"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 4"
+        nama: "Bapak Karyono",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 04 Karyono.webp',
+        jabatan: "Ketua RT.04"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 5"
+        nama: "Bapak Mugiyo",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 05 Mugiyo.webp',
+        jabatan: "Ketua RT.05"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 6"
+        nama: "Bapak Sarpono",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 06 Sarpono.webp',
+        jabatan: "Ketua RT.06"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 7"
+        nama: "Bapak Suwardi",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 07 Suwardi.webp',
+        jabatan: "Ketua RT.07"
     },
     {
-        nama: "Pak Budi Harjo",
-        foto: "https://source.unsplash.com/random/350x350",
-        jabatan: "Ketua RT 8"
+        nama: "Bapak Parjiman",
+        foto: process.env.REACT_APP_PUBLIC_URL + '/images/pemerintahan/RT 08 Parjiman.webp',
+        jabatan: "Ketua RT.08"
     },
 ]
 

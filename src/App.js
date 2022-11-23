@@ -4,6 +4,7 @@ import Galeri from './Pages/Galeri';
 import Home from './Pages/Home';
 import Infografis from './Pages/Infografis';
 import Pemerintahan from './Pages/Pemerintahan';
+import Sejarah from './Pages/Sejarah';
 import UMKM from './Pages/UMKM';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/umkm" element={<UMKM/>}/>
         <Route path="/fasilitas" element={<Fasilitas/>}/>
         <Route path="/galeri" element={<Galeri/>}/>
+        <Route path="/sejarah" element={<Sejarah/>}/>
       </Routes>
     </BrowserRouter>
   );
