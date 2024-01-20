@@ -55,7 +55,7 @@ const dataPejabat = [
 
 function ListPejabat() {
     return (
-        <div className='py-32'>
+        <div className='py-24'>
             <div className="max-w-screen-xl mx-auto px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-5">
                 {
                     // console.log(dataPejabat)
