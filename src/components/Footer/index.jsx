@@ -67,9 +67,9 @@ function Footer() {
                 <li className="hover:text-white/70">
                   <Link to={"/"}>Beranda</Link>
                 </li>
-                <li className="hover:text-white/70">
+                {/* <li className="hover:text-white/70">
                   <Link to={"/"}>Pemerintahan</Link>
-                </li>
+                </li> */}
                 <li className="hover:text-white/70">
                   <Link to={"/"}>Infografis</Link>
                 </li>
