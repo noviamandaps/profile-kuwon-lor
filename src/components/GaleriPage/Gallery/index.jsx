@@ -14,7 +14,7 @@ const galeriImages = [
   process.env.REACT_APP_PUBLIC_URL + "/images/galeri/senam paud.jpg",
   process.env.REACT_APP_PUBLIC_URL +
     "/images/galeri/sosialisasi digital marketing.jpg",
-  process.env.REACT_APP_PUBLIC_URL + "/images/galeri/12.jpg",
+  process.env.REACT_APP_PUBLIC_URL + "/images/galeri/mewarnai.jpg",
   process.env.REACT_APP_PUBLIC_URL + "/images/galeri/13.jpg",
   process.env.REACT_APP_PUBLIC_URL + "/images/galeri/14.webp",
 ];

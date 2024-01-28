@@ -6,7 +6,7 @@ import { galeriImages } from ".";
 export function Gallery() {
   return (
     <section className="bg-emerald-50/50">
-      {/* <div className="max-w-screen-xl mx-auto px-4 lg:px-8 pt-24 pb-24 flex flex-col items-center">
+      <div className="max-w-screen-xl mx-auto px-4 lg:px-8 pt-24 pb-24 flex flex-col items-center">
         <div className="text-center">
           <h4 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
             Kumpulan Foto{" "}
@@ -34,8 +34,8 @@ export function Gallery() {
         >
           Tampilkan Lainnya
         </Link>
-      </div> */}
-      <div className="bg-white">
+      </div>
+      {/* <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
 
@@ -88,7 +88,7 @@ export function Gallery() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

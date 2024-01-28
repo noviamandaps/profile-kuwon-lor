@@ -4,17 +4,17 @@ import FemaleImage from "../../../assets/images/woman.svg";
 import KartuKeluarga from "../../../assets/images/kk.png";
 
 const dataPenduduk = {
-  man: 310,
-  female: 334,
-  total: 644,
-  jumlahKK: 188,
+  man: 245,
+  female: 241,
+  total: 486,
+  jumlahKK: 169,
 };
 
 function DemografiPenduduk() {
   return (
     <>
       <section className="">
-        <div className="max-w-screen-xl mx-auto px-6 lg:px-8 pt-32 flex flex-col">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-8 pt-24 flex flex-col">
           <div className="">
             <h4 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
               Demografi Penduduk

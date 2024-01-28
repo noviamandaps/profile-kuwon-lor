@@ -3,32 +3,33 @@ import React from "react";
 
 const listFasilitas = [
   {
-    img:
-      process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/Balai Dukuh.webp",
+    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/balai.PNG",
     nama: "Balai Padukuhan Kuwon Lor",
-    desc: `Balai padukuhan adalah tempat yang sering dipakai untuk pertemuan warga dan berbagai acara lainnya, bangunan balai ini terletak berdampingan dengan Masjid Baitussalam.`,
+    desc: `Balai padukuhan adalah tempat yang sering dipakai untuk pertemuan warga dan berbagai acara lainnya, bangunan balai ini terletak berdampingan dengan PAUD Tunas Harapan.`,
   },
   {
-    img:
-      process.env.REACT_APP_PUBLIC_URL +
-      "/images/fasilitas/Masjid Baitussalam.webp",
-    nama: "Masjid Baitussalam",
-    desc: `Merupakan satu-satunya masjid di dukuh ini, memiliki serambi yang lumayan luas yang kadang juga dipakai sebagai alternatif untuk pertemuan warga. Ada beberapa kegiatan yang sering diakan seperti TPA dan juga latihan bermain Rabana.`,
+    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/masjid.PNG",
+    nama: "Masjid At Taubah ",
+    desc: `Merupakan satu-satunya masjid di dukuh ini, memiliki serambi yang lumayan luas yang kadang juga dipakai sebagai alternatif untuk pertemuan warga. Ada beberapa kegiatan yang sering diakan seperti TPA.`,
   },
+
   {
-    img:
-      process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/SDN Klampok.webp",
-    nama: "Sekolah Dasar Negeri Klampok",
-    desc: `Meskipun namanya SDN Klampok tapi sebenarnya SD ini berada di Dukuh Kuwon Lor, para siswa rata-rata berasal dari dukuh Klampok dan Kuwon Lor, karena SD ini berada di antara 2 dukuh tersebut.`,
-  },
-  {
-    img:
-      process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/Lapangan Voli.webp",
+    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/voli.PNG",
     nama: "Lapangan Voli Kuwon Lor",
     desc: `Lapangan ini terletak di tempat yang strategis karena bberada di samping jalan utama, sering kali saat musim kemarau menjadi tempat diadakannya pertandingan Bola Voli antar Kelurahan.`,
   },
   {
-    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/PAUD.webp",
+    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/PAUD.PNG",
+    nama: "PAUD (Pendidikan Anak Usia Dini) Kuwon Lor",
+    desc: `Menjadi tempat belajar pertama untuk anak-anak Dukuh Kuwon Lor ini, terkadang juga menjadi tempat untuk mereka bermain karena tempat ini terbuka untuk umum.`,
+  },
+  {
+    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/TK.PNG",
+    nama: "PAUD (Pendidikan Anak Usia Dini) Kuwon Lor",
+    desc: `Menjadi tempat belajar pertama untuk anak-anak Dukuh Kuwon Lor ini, terkadang juga menjadi tempat untuk mereka bermain karena tempat ini terbuka untuk umum.`,
+  },
+  {
+    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/TK.PNG",
     nama: "PAUD (Pendidikan Anak Usia Dini) Kuwon Lor",
     desc: `Menjadi tempat belajar pertama untuk anak-anak Dukuh Kuwon Lor ini, terkadang juga menjadi tempat untuk mereka bermain karena tempat ini terbuka untuk umum.`,
   },
