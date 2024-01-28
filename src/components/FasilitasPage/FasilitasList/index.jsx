@@ -9,7 +9,7 @@ const listFasilitas = [
   },
   {
     img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/masjid.PNG",
-    nama: "Masjid At Taubah ",
+    nama: "Masjid At Taubah",
     desc: `Merupakan satu-satunya masjid di dukuh ini, memiliki serambi yang lumayan luas yang kadang juga dipakai sebagai alternatif untuk pertemuan warga. Ada beberapa kegiatan yang sering diakan seperti TPA.`,
   },
 
@@ -25,13 +25,13 @@ const listFasilitas = [
   },
   {
     img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/TK.PNG",
-    nama: "PAUD (Pendidikan Anak Usia Dini) Kuwon Lor",
-    desc: `Menjadi tempat belajar pertama untuk anak-anak Dukuh Kuwon Lor ini, terkadang juga menjadi tempat untuk mereka bermain karena tempat ini terbuka untuk umum.`,
+    nama: "TK ABA",
+    desc: `TK ABA adalah tempat belajar pertama bagi anak-anak Dukuh Kuwon Lor. Selain sebagai tempat belajar, TK ini juga menjadi tempat untuk mereka bermain, dan terbuka untuk umum. Kami berkomitmen untuk memberikan pendidikan yang berkualitas dan lingkungan yang aman bagi anak-anak kami.`,
   },
   {
-    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/TK.PNG",
-    nama: "PAUD (Pendidikan Anak Usia Dini) Kuwon Lor",
-    desc: `Menjadi tempat belajar pertama untuk anak-anak Dukuh Kuwon Lor ini, terkadang juga menjadi tempat untuk mereka bermain karena tempat ini terbuka untuk umum.`,
+    img: process.env.REACT_APP_PUBLIC_URL + "/images/fasilitas/Puskesmas.PNG",
+    nama: "Puskemas Pembantu",
+    desc: `Puskesmas Pembantu adalah fasilitas kesehatan yang melayani Dukuh Kuwon Lor bersampingan dengan TK ABA. Selain menjadi tempat untuk mendapatkan perawatan medis, Puskesmas ini juga terbuka untuk umum. Kami berkomitmen untuk memberikan pelayanan kesehatan yang terbaik bagi masyarakat.`,
   },
 ];
 

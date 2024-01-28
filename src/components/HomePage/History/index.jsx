@@ -14,15 +14,27 @@ function History() {
       </div>
       <div className="md:w-3/5">
         <h3 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 animate-fade-left">
-          Sejarah Singkat
+          Selayang Pendang <br />
+          KKN AB.80.078.GK
         </h3>
-        <p className="text-gray-600 mb-14">novi cantik</p>
-        <Link
+        <p className="text-gray-600 mb-14">
+          Website ini dibuat oleh KKN AB.80.078.GK dari UPN Veteran Yogyakarta
+          pada Januari 2024. Kami berkomitmen untuk memberikan informasi yang
+          bermanfaat bagi semua orang. Dengan semangat inovasi dan dedikasi kami
+          berharap dapat memberikan panduan, wawasan, dan inspirasi kepada
+          masyarakat luas. Situs ini dirancang untuk memudahkan pencarian
+          informasi yang relevan dengan tujuan untuk memberikan manfaat
+          seoptimal mungkin bagi pengunjung. Kami yakin bahwa informasi yang
+          kami sajikan akan memperkaya pengetahuan dan membantu semua orang
+          mencapai tujuan mereka. Terima kasih telah mengunjungi situs kami, dan
+          kami berharap Anda dapat merasakan manfaatnya.
+        </p>
+        {/* <Link
           className="btn bg-emerald-600 hover:bg-emerald-700 text-white"
           to={"/sejarah"}
         >
           Selengkapnya
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
